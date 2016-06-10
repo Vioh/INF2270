@@ -1,0 +1,109 @@
+Navn: syhd
+INF2270 (UiO-Vår 2016)
+Oblig 2 - Mini CPU
+------------------------------------------------------
+Logging av kretsen ved kjøring av Program 1:
+v2.0 raw
+85 97 B1 81 94 A1 00 00 
+00 00 00 00 00 00 00 00
+
+| Count |  Op  | Register  |   RAM[0]  |   RAM[1]  |   RAM[2]  |   RAM[3]  |   RAM[4]  |
+|-------+------+-----------+-----------+-----------------------+-----------+-----------|
+|  0000 | 1000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0001 | 1001 | 0000 0101 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0010 | 1011 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0011 | 1000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0100 | 1001 | 0111 0001 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0101 | 1010 | 0100 0001 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0110 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0111 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1000 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1001 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1010 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1011 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1100 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1101 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1110 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  1111 | 0000 | 0111 0101 | 0000 0000 | 0111 0101 | 0000 0000 | 0000 0000 | 0000 0000 |
+
+------------------------------------------------------
+Logging av kretsen ved kjøring av Program 2:
+v2.0 raw
+8C 9D B0 B3 81 91 A0 B4
+00 00 00 00 00 00 00 00
+
+| Count |  Op  | Register  |   RAM[0]  |   RAM[1]  |   RAM[2]  |   RAM[3]  |   RAM[4]  |
+|-------+------+-----------+-----------+-----------------------+-----------+-----------|
+|  0000 | 1000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0001 | 1001 | 0000 1100 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0010 | 1011 | 1101 1100 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0011 | 1011 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 0000 0000 | 0000 0000 |
+|  0100 | 1000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 0000 0000 |
+|  0101 | 1001 | 1101 0001 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 0000 0000 |
+|  0110 | 1010 | 0001 0001 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 0000 0000 |
+|  0111 | 1011 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 0000 0000 |
+|  1000 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1001 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1010 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1011 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1100 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1101 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1110 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+|  1111 | 0000 | 1101 1100 | 1101 1100 | 0000 0000 | 0000 0000 | 1101 1100 | 1101 1100 |
+
+------------------------------------------------------
+Main inneholder de følgende kompenentene:
+	- Counter: Fungerer som instruksjonspeker
+	- RAM: Programminne (for å lagre instruksjoner/maskinkoder)
+	- RAM: Dataminne
+	- Register: Lagrer mellomresultater for CPU
+	- Control Unit (CU): Dekoderer operasjonskoder og styrer CPU
+	- System Bus: Transporterer bittene mellom kompenentene
+	
+Counter:
+	Output må være en verdi som ligger mellom 0 og 15. Counteren skal ta imot to
+	input (klokkesignal og reset), og begge to er koblet til et internt register. 
+	På grunn av dette registeret, kan counteren sees som en tilstandsmaskin, hvor 
+	neste tilstand avhenger av nåværende tilstand. Komponenten kan bare oppdatere
+	tilstanden når klokkesignal går fra lav til høy. Og dette er oppnådd ved å bruke
+	"rising edge" til å trigge loading av data som er lagret i registeret.
+	Jeg har implementert kretsen slik at counteren ikke kan telle mer enn 15, og
+	kan bare gå tilbake til 0 hvis og bare hvis "reset" settes til høy. Dette er
+	oppnådd ved å bruke et sett av 4 OR-porter som tar imot den siste carry-bit
+	som input. Hvis dette bit er 1 (dvs. counteren har nådd verdien 16), så skal
+	de 4 OR-portene gi 1111 som output (og dette er lik 15 i desimaler). 
+
+RAM (Programminne):
+	Denne komponenten skal være "read only" fordi vi ikke trenger å oppdatere noen
+	verdier som er lagret i minnet. Dette er oppnådd ved å sette "select" og "load"
+	til høy hele tiden. 
+	Vi bruker denne kompenenten til å lagre 8-bits maskinkoder. Og hver instruksjon
+	(som egentlig er output fra RAMen) skal gå inn i en splitter slik at at den blir
+	deles opp i to 4-bits deler, hvor den første representerer en operasjonskode (som
+	skal dekodes i CU), og den andre delen representerer enten adresse til dataminne
+	eller data som blir transportert til de andre kompenentene via system-bus. 
+
+RAM (Dataminne) og CPU Register:
+	De to kompenentene skal brukes til å lagre data og mellomresultater. Da må begge
+	to koblet til system-busen slik at dataene kan flyttes rundt på en enkel måte.
+	Jeg har implementert kretsen slik at de to kompenentene kan bare oppdatere data
+	synkronisert når klokken går fra lav til høy. Dette leder til at oppdatering kan 
+	bare skje på neste klokkesignal. Jeg skjønner at hele instruksjonen kan bli utført
+	innen en klokkesykel hvis jeg har brukt "falling edge" til å oppdatere data, men
+	jeg synnes at dette kan gå feil hvis vi klikker på "reset" når klokken er lav.
+	
+Control Unit (CU) og System Bus:
+	CU bruker en 4-16 dekoder til å dekodere operasjonskoder som vi får fra programminne.
+	Fordi CPU kan bare støtte 4 operasjoner, så burde CU gi 4 utganger som representerer
+	de 4 operasjonene. Men for enkelshets skyld, har jeg designet CU slik at den gir 6
+	utganger isdetfor 4:
+	- C1: representerer op = 1000
+	- C2: representerer op = 1001
+	- C3: representerer op = 1000 eller 1011
+	- C4: representerer op = 1001 eller 1011
+	- C5: representerer op = 1010 eller 1011
+	- C6: representerer op = 1010
+	Alle de utgangene skal brukes til å bestemme hvilke bit fra hvilke kompenenter som
+	kan driver system-busen. De fire første (C1-C4) er koblet til de tri-buffere (som
+	står fremfor system-busen) for å styre data fra CPU-register og programminne, mens
+	de 2 andre (C5-C6) brukes til å styre output fra dataminne.
